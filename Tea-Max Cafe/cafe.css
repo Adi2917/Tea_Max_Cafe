@@ -1,0 +1,355 @@
+                /* navbar started from here */
+/* for navbar */
+#navbar{
+    border: 1px solid rgb(104, 43, 53);
+    width: 84.2em;
+    height: 6em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(104, 43, 53);
+    
+}
+
+/* for logo in navbar */
+#logo{
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 2em;
+    box-shadow: 5px 5px 12px black;
+}
+
+/* for facebook logo */
+#fb{
+    margin-left: 2.5em;
+    height: 1.8em;
+    width: 1.8em;
+}
+/* for whatsapp logo */
+#wp{
+    margin-left: 2.5em;
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 7px;
+}
+/* for instagram logo */
+#insta{
+    margin-left: 2.5em;
+    height: 1.8em;
+    width: 1.8em;
+}
+/* for searchbar */
+input{
+    margin-left: 4em;
+    width: 35em;
+    height: 2em;
+    margin-top: 1.8em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* for shadow effect on searchbar */
+input:hover{
+    box-shadow: 4px 4px 18px skyblue;
+}
+/* for submit action */
+#sub{
+    height: 2.5em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1.8em;
+}
+/* for time logo */
+#time{
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
+    margin-top: 1.3em;
+    margin-left: 4em;
+}
+/* for time present */
+#time-cntnt{
+    color: white;
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+                /* here navbatr end */
+
+                /* wallpaper section started */
+
+/* for wall-paper */ 
+#wallpaper{
+    height: 43em;
+    width: 84.3em;
+    margin-top: 100em;
+    left: 0;
+}
+/*for cafe name */
+#cafe-name{
+    margin-top: -6em;
+    font-size: 4em;
+    font-family: algerian;
+    word-spacing: 5px;
+    line-height: 37px;
+    margin-left: 3em;
+    color: rgb(0, 255, 213);
+}
+/* for quote line on wallpaper */
+#quote{
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    font-family: fantasy;
+    word-spacing: 5px;
+    line-height: 37px;
+    margin-left: 3em;
+    color: rgb(142, 208, 73);
+}
+                /* here wallpapre section end */
+
+/* for the purpose of background image */
+.container {
+    background-image: url('images/background.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; 
+}
+
+                /* about section start */
+/* for about */
+#about{
+    margin-top: 0em;
+    margin-left: 4em;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    line-height: 23px;
+}
+/* for about heading */
+#about-head{
+    margin-top: 5em;
+    margin-left: 2em;
+    color: rgb(191, 39, 70);
+}
+/* for about paragraph */
+#about-cntnt{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 6em;
+    width: 37em;
+    border-radius: 10px;
+    color: bisque;
+    padding: 1em;
+}
+/* for read more button */
+#about-btn{
+    height: 2.4em;
+    width: 9em;
+    background-color: rgb(220, 99, 119);
+    border-radius: 5px;
+    border-color: rgb(220, 99, 119);
+    margin-left: 3em;
+    word-spacing: 5px;
+}
+/* for side image of about section */
+#about-pic{
+    width: 25em;
+    height: 16em;
+    margin-left: 4em;
+    margin-top: 10em;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+                /* here about section end */
+            
+                /* service section started */
+/* for service head */
+#service-head{ 
+    margin-left: 3em;
+    color: rgb(228, 49, 85);
+}
+/*border of menu bar */
+#border{
+    border: 2px solid none;
+    height: 19em;
+    width: 15em;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+/* for shadow effect of menu bar */
+#border:hover{
+    box-shadow: 3px 5px 15px rgb(17, 230, 91);
+}
+
+/* for first three item in first row */
+#first-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+/*tea*/
+#tea{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*coffee*/
+#coffee{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*mojito*/
+#mojito{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* for second three item in second row */
+#second-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+/*milkshakes*/
+#milkshakes{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*thickshakes*/
+#thickshakes{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*frenchfries*/
+#frenchfries{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* for third three item in third row */
+#third-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+/*sandwhich*/
+#sandwhich{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*vadapaw*/
+#vadapaw{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*burger*/
+#burger{
+    height: 14em;
+    width: 15em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* for the link which is placed in all item for more option */
+a{
+    margin-top: 1.5em;
+    text-decoration: none;
+    letter-spacing: 1.7px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+}
+                /* here service section end */
+
+                /* fotter section start */
+#fotter{
+    border: 1px solid rgb(104, 43, 53);
+    height: 15em;
+    width: 84.2em;
+    margin-top: 4em;
+    background-color: rgb(104, 43, 53);
+}
+#foot-logo{
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-left: 3em;
+    box-shadow: 5px 5px 12px black;
+}
+#adrs{
+    width: 2.6em;
+    height: 2.6em;
+    margin-top: 2.5em;
+    margin-left: 4em;
+    border-radius: 50%;
+}
+#adrs-cntnt{
+    color: White;
+    margin-left: 1.5em;
+    margin-top: 2.5em;
+    font-size: 18px;
+}
+#mail{
+    width: 2.6em;
+    height: 2.6em;
+    margin-top: 0em;
+    margin-left: 4em;
+    border-radius: 50%;
+}
+#mail-cntnt{
+    color: White;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    font-size: 18px;
+    text-decoration: none;
+}
+#call{
+    width: 2.6em;
+    height: 2.6em;
+    margin-top: 1.5em;
+    margin-left: 4em;
+    border-radius: 50%;
+}
+#call-cntnt{
+    color: White;
+    margin-left: 1.5em;
+    margin-top: 1.8em;
+    font-size: 18px;
+    text-decoration: none;
+}
+#copyright{
+    margin-top: 4em;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+#foot-name{
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1em;
+    margin-left: 2em;
+    color: rgb(10, 194, 114);
+}
